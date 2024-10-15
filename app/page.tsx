@@ -1,101 +1,120 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <div className="items-center justify-items-center min-h-screen p-8 sm:p-20 ">
+      <main className="flex flex-col items-center ">
         <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
+          className="rounded-full mb-6"
+          src="/logo.png"
+          alt="logo"
+          width={120}
           height={38}
           priority
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+        <h1 className="font-bold text-2xl">Cripto com Giow ⚡</h1>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+        <div className=" flex gap-2 py-4 flex-wrap items-center justify-center">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            className="flex items-center  hover:text-primary"
+            href="https://www.instagram.com/criptogiow"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
+              className="rounded-full mr-1"
+              src="/instagram.svg"
+              alt="instagram"
               width={20}
               height={20}
             />
-            Deploy now
+            <span className=" text-sm text-[#ccc] hover:text-foreground">
+              @criptogiow
+            </span>
           </a>
+
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            className="flex items-center    hover:text-primary"
+            href="https://www.telegram.com/@GiowoBot" //rever aqui
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read our docs
+            <Image
+              className="rounded-full mr-1"
+              src="/telegram.svg"
+              alt="telegram"
+              width={20}
+              height={20}
+            />
+            <span className=" text-sm text-[#ccc] hover:text-foreground">
+              Cripto com Giow ⚡
+            </span>
+          </a>
+        </div>
+
+        <div className="  space-y-4 text-center">
+          <h3 className="font-semibold">
+            💰 Criptomoedas 🚀Airdrops gratuitos
+          </h3>
+          <span className="font-semibold">⤵️ Comece sua jornada ⤵️</span>
+        </div>
+
+        <div className="flex  py-10 items-center flex-col ">
+          <h3 className="font-bold mb-2 text-xl">Guia para iniciantes</h3>
+
+          <Link
+            href="/airdrops"
+            className="hover:text-foreground text-[#ccc] text-sm  "
+          >
+            💰 O que são Airdrops?
+          </Link>
+          <Link
+            href="/corretoras"
+            className="hover:text-foreground text-[#ccc] text-sm  "
+          >
+            💱 Corretoras
+          </Link>
+        </div>
+
+        <div className="flex gap-2  items-center flex-col ">
+          <a
+            className="hover:text-foreground text-[#ccc] text-sm  "
+            href="https://t.me/Ton_kombat_bot/app?startapp=966140556"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ⚔ Airdrop gratuito #1
+          </a>
+
+          <a
+            className="hover:text-foreground text-[#ccc] text-sm  "
+            href="https://t.me/Binance_Moonbix_bot/start?startApp=ref_966140556&startapp=ref_966140556&utm_medium=web_share_copy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🎁 Airdrop gratuito #2
+          </a>
+
+          <a
+            className="hover:text-foreground text-[#ccc] text-sm  "
+            href="https://t.me/Tomarket_ai_bot/app?startapp=0002pAzk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🍅 Airdrop gratuito #3
+          </a>
+
+          <a
+            className="hover:text-foreground text-[#ccc] text-sm  "
+            href="https://t.me/blum/app?startapp=ref_KEwToMnAYN"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🍀 Airdrop gratuito #4
           </a>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
