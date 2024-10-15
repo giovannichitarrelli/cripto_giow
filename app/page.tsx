@@ -7,7 +7,7 @@ export default function Home() {
       <main className="flex flex-col items-center">
         <Image
           className="mb-6 rounded-full"
-          src="/logo.png"
+          src="/logotipo.png"
           alt="logo"
           width={120}
           height={38}
@@ -42,10 +42,10 @@ export default function Home() {
           >
             <Image
               className="mr-1 rounded-full"
-              src="/telegram.svg"
+              src="/telegram3.svg"
               alt="telegram"
-              width={20}
-              height={20}
+              width={18}
+              height={18}
             />
             <span className="text-sm text-[#ccc] hover:text-foreground">
               Cripto com Giow ⚡
