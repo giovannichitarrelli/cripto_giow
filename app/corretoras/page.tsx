@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-export default function Corretora() {
+export default function Page() {
   return (
-    <div className="items-center justify-items-center min-h-screen p-8 sm:p-20 ">
+    <div className="min-h-screen items-center justify-items-center p-8 sm:p-20">
       <div className="pb-2 text-sm">
         <Link href="/" className="text-[#ccc] hover:underline">
           Home
@@ -10,12 +10,12 @@ export default function Corretora() {
         / Corretoras
       </div>
       <main className="flex flex-col items-center">
-        <h1 className="font-bold text-4xl">Corretoras 💱</h1>
-        <div className="py-4 flex flex-col">
+        <h1 className="text-4xl font-bold">Corretoras 💱</h1>
+        <div className="flex flex-col py-4">
           <span className="text-[#ccc]">➡ Qual a melhor corretora? </span>
           <span className="text-[#ccc]">➡ Qual corretora você deve usar?</span>
           <div className="py-4">
-            <h3 className="font-bold py-4">Qual corretora escolher? 🚀</h3>
+            <h3 className="py-4 font-bold">Qual corretora escolher? 🚀</h3>
             <p className="text-[#ccc]">
               Se você deseja investir em criptomoedas, usar uma corretora é
               praticamente indispensável. É através dela que você consegue
@@ -25,17 +25,17 @@ export default function Corretora() {
             </p>
 
             <p className="text-[#ccc]">
-              Caso queira, você pode abrir sua conta na Bybit clicando aqui: 
+              Caso queira, você pode abrir sua conta na Bybit clicando aqui:
               <Link
                 href=" https://www.bybit.com/invite?ref=XQNBRE9"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-foreground hover:text-[#ccc] mx-1"
+                className="mx-1 text-foreground hover:text-[#ccc]"
               >
                 https://www.bybit.com/invite?ref=XQNBRE9
               </Link>
             </p>
-            <h3 className="font-bold py-4">
+            <h3 className="py-4 font-bold">
               Por que a Bybit se destaca como uma boa escolha? 🚀
             </h3>
             <p className="text-[#ccc]">
@@ -55,7 +55,7 @@ export default function Corretora() {
             </p>
           </div>
 
-          <div className="bg-[#ddd] p-4 mt-4">
+          <div className="mt-4 bg-[#ddd] p-4">
             <p className="text-[#000]">
               ✅ Depois de criar sua conta, você já pode começar a explorar o
               mundo das criptomoedas! Quer comprar cripto? É só depositar reais

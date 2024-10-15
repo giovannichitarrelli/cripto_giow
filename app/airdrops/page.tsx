@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-export default function Airdrops() {
+export default function Page() {
   return (
-    <div className="items-center justify-items-center min-h-screen p-8 sm:p-20 ">
+    <div className="min-h-screen items-center justify-items-center p-8 sm:p-20">
       <div className="pb-2 text-sm">
         <Link href="/" className="text-[#ccc] hover:underline">
           Home
@@ -10,8 +10,8 @@ export default function Airdrops() {
         / Aidrops
       </div>
       <main className="flex flex-col items-center">
-        <h1 className="font-bold text-4xl">O que é um Airdrop? 💰</h1>
-        <div className="py-4 flex flex-col">
+        <h1 className="text-4xl font-bold">O que é um Airdrop? 💰</h1>
+        <div className="flex flex-col py-4">
           <span className="text-[#ccc]">
             ➡ Airdrops são uma maneira de distribuir criptomoedas gratuitamente
             para várias pessoas ao mesmo tempo. Eles são usados, principalmente,
@@ -20,16 +20,16 @@ export default function Airdrops() {
           </span>
 
           <div className="py-4">
-            <h3 className="font-bold py-4">Como funciona? 🚀</h3>
+            <h3 className="py-4 font-bold">Como funciona? 🚀</h3>
             <p className="text-[#ccc]">
-              Imagine um airdrop como um "lançamento" de moedas digitais. Pense
-              em um festival onde de repente começam a distribuir camisetas
-              grátis do palco. Todo mundo corre para pegar a sua, certo? Nos
-              airdrops, em vez de camisetas, são criptomoedas que "caem"
-              diretamente na sua carteira digital.
+              Imagine um airdrop como um lançamento de moedas digitais. Pense em
+              um festival onde de repente começam a distribuir camisetas grátis
+              do palco. Todo mundo corre para pegar a sua, certo? Nos airdrops,
+              em vez de camisetas, são criptomoedas que caem diretamente na sua
+              carteira digital.
             </p>
 
-            <h3 className="font-bold py-4">Por que isso acontece?? 🚀</h3>
+            <h3 className="py-4 font-bold">Por que isso acontece?? 🚀</h3>
             <p className="text-[#ccc]">
               Os projetos de criptomoedas fazem airdrops para ganhar
               visibilidade, aumentar sua base de usuários e fortalecer sua
@@ -38,7 +38,7 @@ export default function Airdrops() {
               pessoas. É uma forma de introduzir o produto e gerar interesse.
             </p>
 
-            <h3 className="font-bold py-4">
+            <h3 className="py-4 font-bold">
               Como participar de um airdrop? 🚀
             </h3>
             <p className="text-[#ccc]">
@@ -55,7 +55,7 @@ export default function Airdrops() {
             </p>
 
             <p className="text-[#ccc]">
-              Imagine um novo projeto chamado "CriptoFest" que quer promover a
+              Imagine um novo projeto chamado CriptoFest que quer promover a
               FestCoin. Para participar do airdrop, você precisa seguir a página
               deles no Twitter e fornecer o endereço da sua carteira. Após o
               período de divulgação, você recebe 100 FestCoins de graça! Agora,
@@ -68,7 +68,7 @@ export default function Airdrops() {
               extra.
             </p>
 
-            <h3 className="font-bold py-4">Como ganhar Airdrops? 🚀</h3>
+            <h3 className="py-4 font-bold">Como ganhar Airdrops? 🚀</h3>
             <p className="text-[#ccc]">
               Existem vários tipos de airdrops, desde os mais simples, que
               envolvem interagir nas redes sociais ou jogar jogos, até os mais
@@ -82,15 +82,15 @@ export default function Airdrops() {
             </p>
           </div>
 
-          <h3 className="font-bold py-4">Por que isso acontece? 🚀</h3>
+          <h3 className="py-4 font-bold">Por que isso acontece? 🚀</h3>
           <p className="text-[#ccc]">
             Proteja sua carteira: Use carteiras seguras e nunca compartilhe sua
             chave privada. Golpes disfarçados de airdrops são comuns, então
             fique atento!
           </p>
 
-          <div className="bg-[#ddd] p-4 mt-4">
-            <h3 className="font-bold py-4 text-[#000]"> Qual é o risco ❓ </h3>
+          <div className="mt-4 bg-[#ddd] p-4">
+            <h3 className="py-4 font-bold text-[#000]"> Qual é o risco ❓ </h3>
 
             <p className="text-[#000]">
               O risco de perder dinheiro é zero. O máximo que pode acontecer é o
