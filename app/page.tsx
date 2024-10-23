@@ -36,7 +36,8 @@ export default function Home() {
 
           <a
             className="hover:text-primary flex items-center"
-            href="https://t.me/GiowoBot"
+            // href="https://t.me/GiowoBot"
+            href="https://t.me/criptogiow"
             target="_blank"
             rel="noopener noreferrer"
           >
