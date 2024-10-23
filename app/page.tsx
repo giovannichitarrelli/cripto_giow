@@ -18,7 +18,7 @@ export default function Home() {
         <div className="flex flex-wrap items-center justify-center gap-2 py-4">
           <a
             className="hover:text-primary flex items-center"
-            href="https://www.instagram.com/criptogiow"
+            href="https://www.instagram.com/eusouogiow"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,7 +30,7 @@ export default function Home() {
               height={20}
             />
             <span className="text-sm text-[#ccc] hover:text-foreground">
-              @criptogiow
+              @eusouogiow
             </span>
           </a>
 
