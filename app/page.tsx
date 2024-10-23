@@ -7,7 +7,7 @@ export default function Home() {
       <main className="flex flex-col items-center">
         <Image
           className="mb-6 rounded-full"
-          src="/logotipo.png"
+          src="/perfil-ia-2.jpg"
           alt="logo"
           width={120}
           height={38}
